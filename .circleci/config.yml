@@ -5,6 +5,7 @@ orbs:
 
 jobs:
   build:
+    working_directory: /opt/scim-sdk
     docker:
       - image: cimg/openjdk:11.0
     steps:
